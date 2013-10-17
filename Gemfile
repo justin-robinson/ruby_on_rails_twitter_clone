@@ -22,6 +22,7 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'libnotify', '0.8.0'
 end
 
 gem 'sass-rails', '4.0.0' # Use SCSS for stylesheets
@@ -39,17 +40,5 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
-gem 'libnotify', '0.8.0'
 gem 'execjs'
 gem 'therubyracer'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-# Use unicorn as the app server
-# gem 'unicorn'
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-# Use debugger
-# gem 'debugger', group: [:development, :test]
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
