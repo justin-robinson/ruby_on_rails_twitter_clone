@@ -28,7 +28,7 @@ end
 gem 'sass-rails', '4.0.0' # Use SCSS for stylesheets
 gem 'uglifier', '1.3.0' # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '4.0.0' # Use CoffeeScript for .js.coffee assets and views
-gem 'jquery-rails', '3.0.4' # Use jquery as the JavaScript library
+gem 'jquery-rails', '3.1.3' # Use jquery as the JavaScript library
 gem 'turbolinks', '1.1.1'# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder', '1.0.2' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 
